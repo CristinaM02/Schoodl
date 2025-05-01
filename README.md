@@ -18,8 +18,8 @@
 
 1. Clone the repository:
    ```bash
-   git clone https://autocode.git.epam.com/cristina.mierla02/capstone-project-template.git
-   cd capstone-project-template
+   git clone https://github.com/CristinaM02/Schoodl.git
+   cd Schoodl
    ```
 
 2. Install dependencies:
@@ -67,7 +67,7 @@ npm run lint
 
 ## 📁 Project Structure
 
-    capstone-project-template/
+    Schoodl/
     ├── public/
     │   ├── data/
     │   │   ├── courses.json
