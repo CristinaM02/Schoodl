@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoodl</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">Schoodl</a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>
+                    <a href="courses.html">Courses
+                        <span class="material-icons" role="img" aria-label="Arrow down">arrow_drop_down</span>
+                    </a>
+                    <ul class="dropdown">
+                        <li><a href="#">Sub-1</a></li>
+                        <li><a href="#">Sub-2</a></li>
+                        <li><a href="#">Sub-3</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-icons">
+            <div class="user-icon">
+                <a href="#"><span class="material-icons" role="img" aria-label="User Icon">person_outline</span></a>
+            </div>
+            <button class="menu-toggle" aria-label="Toggle navigation">
+                <span class="material-icons" role="img" aria-label="Menu">menu</span>
+            </button>
+        </div>
+    </header>
+
+    <main class="contact-page">
+        <h2>Contact Us</h2>
+        <div class="contact-info-grid">
+            <div class="info-box">
+                <span class="material-icons" role="img" aria-label="Location">location_on</span>
+                <div>
+                    <h2>Address</h2>
+                    <p>Strada Universității 15, Cluj-Napoca, România</p>
+                </div>
+            </div>
+
+            <div class="info-box">
+                <span class="material-icons" role="img" aria-label="Phone">phone</span>
+                <div>
+                    <h2>Phone</h2>
+                    <p>+40 745 123 456</p>
+                </div>
+            </div>
+
+            <div class="info-box">
+                <span class="material-icons" role="img" aria-label="Email">email</span>
+                <div>
+                    <h2>Email</h2>
+                    <p>contact@exemplu.ro</p>
+                </div>
+            </div>
+
+            <div class="info-box">
+                <span class="material-icons" role="img" aria-label="Clock">access_time</span>
+                <div>
+                    <h2>Working Hours</h2>
+                    <p>Monday – Friday: 9:00 – 18:00</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="map-container">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2705.588523271853!2d23.58813327631871!3d46.77121007114282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47490c19883a1181%3A0x384750aeff7c57a3!2sStrada%20Universit%C4%83%C8%9Bii%2015%2C%20Cluj-Napoca%2C%20Romania!5e0!3m2!1sen!2sus!4v1712222222222!5m2!1sen!2sus"
+                width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+    <script type="module" src="/src/all.ts"></script>
+</body>
+
+</html>

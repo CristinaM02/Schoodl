@@ -1,0 +1,39 @@
+[
+    {
+      "id": 1,
+      "name": "John Doe",
+      "bio": "Senior JavaScript developer with 10 years of experience.",
+      "image": "/src/assets/instructors/john-doe.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Sarah Smith",
+      "bio": "React expert and front-end mentor with a passion for UI/UX.",
+      "image": "/src/assets/instructors/sarah-smith.jpg"
+    },
+    {
+      "id": 3,
+      "name": "David Johnson",
+      "bio": "Data scientist specializing in machine learning and AI.",
+      "image": "/src/assets/instructors/david-johnson.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Emily Brown",
+      "bio": "UI/UX designer with a background in psychology and user behavior.",
+      "image": "/src/assets/instructors/emily-brown.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Michael Wilson",
+      "bio": "Full-stack developer with experience in MERN and MEAN stacks.",
+      "image": "/src/assets/instructors/michael-wilson.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Sophia Martinez",
+      "bio": "Cybersecurity analyst with expertise in ethical hacking.",
+      "image": "/src/assets/instructors/sophia-martinez.jpg"
+    }
+  ]
+  

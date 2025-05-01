@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Schoodl</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <a href="#" class="logo">Schoodl</a>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li>
+                <a href="courses.html">Courses
+                    <span class="material-icons" role="img" aria-label="Arrow down">arrow_drop_down</span>
+                </a>
+                <ul class="dropdown">
+                    <li><a href="#">Sub-1</a></li>
+                    <li><a href="#">Sub-2</a></li>
+                    <li><a href="#">Sub-3</a></li>
+                </ul>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="header-icons">
+        <div class="user-icon">
+            <a href="#"><span class="material-icons" role="img" aria-label="User Icon">person_outline</span></a>
+        </div>
+        <button class="menu-toggle" aria-label="Toggle navigation">
+            <span class="material-icons" role="img" aria-label="Menu">menu</span>
+        </button>
+    </div>
+</header>
+  <div class="banner">
+    <h2>Courses</h2>
+  </div>
+  <div class="courses-wrapper">
+    <aside class="filters">
+      <div class="filters-title-wrapper">
+      <h2>Filters</h2>
+      <button class="close-filters" role="img" aria-label="Close filters">
+        <span class="material-icons">close</span>
+      </button>
+    </div>
+
+      <!-- Category Filter -->
+      <h3>Category</h3>
+      <div class="filter-group category-filter"></div>
+
+      <!-- Language Filter -->
+      <h3>Language</h3>
+      <div class="filter-group language-filter"> </div>
+
+      <!-- Difficulty Filter -->
+      <h3>Difficulty</h3>
+      <div class="filter-group difficulty-filter"></div>
+
+      <!-- Price Slider -->
+      <h3>Price</h3>
+      <div class="filter-group price-filter"></div>
+
+      <!-- Duration Tags -->
+      <h3>Duration</h3>
+      <div class="filter-group duration-filter"></div>
+    </aside>
+
+    <main>
+      <section class="controls">
+        <input type="text" class="search-input" placeholder="Search courses">
+        <div class="controls-dropdowns">
+            <button class="mobile-filter" aria-expanded="false" aria-controls="filters">Filter by</button>
+        <select class="sort-options">
+          <option value="alphabetical-asc" selected>Alphabetically, A-Z</option>
+          <option value="alphabetical-desc">Alphabetically, Z-A</option>
+          <option value="price-asc">Price, low to high</option>
+          <option value="price-desc">Price, high to low</option>
+          <option value="rating-asc">Rating, low to high</option>
+          <option value="rating-desc">Rating, high to low</option>
+        </select>
+        </div>
+      </section>
+      <section>
+        <div id="courses-container"></div>
+        <div class="pagination-container">
+        </div>
+      </section>
+    </main>
+  </div>
+  <footer>
+
+  </footer>
+  <script type="module" src="/src/courses.ts"></script>
+</body>
+
+</html>
